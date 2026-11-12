@@ -1,0 +1,9 @@
+brave-bin
+dankcalendar-bin
+dsearch-bin
+google-chrome
+greetd-dms-greeter-git
+quickshell-allflags-git
+ulaa-browser
+voiden-appimage
+zoom
