@@ -39,3 +39,17 @@ if [ -f "$AUR" ]; then
         echo "==> yay not found; install it, then run 'chezmoi apply' again for AUR packages"
     fi
 fi
+
+# oh-my-zsh is a plain git clone (.zshrc sources it)
+if [ ! -d "$HOME/.oh-my-zsh" ]; then
+    echo "==> Cloning oh-my-zsh"
+    git clone --depth=1 https://github.com/ohmyzsh/ohmyzsh.git "$HOME/.oh-my-zsh" \
+        || echo "==> WARNING: could not clone oh-my-zsh"
+fi
+
+# uv is installed via its official installer (fish config sources ~/.local/bin/env.fish)
+if [ ! -x "$HOME/.local/bin/uv" ]; then
+    echo "==> Installing uv"
+    curl -LsSf https://astral.sh/uv/install.sh | sh \
+        || echo "==> WARNING: could not install uv"
+fi
