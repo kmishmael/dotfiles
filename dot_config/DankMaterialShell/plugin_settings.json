@@ -1,0 +1,34 @@
+{
+  "worldClock": {
+    "enabled": true,
+    "timezones": [
+      {
+        "timezone": "America/New_York",
+        "label": "US",
+        "showOnBar": true
+      }
+    ],
+    "use24h": true
+  },
+  "cgstasksTimer": {
+    "enabled": true,
+    "pat.local": "",
+    "pat.staging": "",
+    "env.url.staging": "https://staging-api-tasks.caretgrowth.com/",
+    "user.id": "10e8e071-2637-46af-8597-d4bb8922d01f",
+    "user.name": "Ishmael Kibet",
+    "env.active": "production",
+    "pat.production": "cgstasks_b138595996c9093499cb8d3ee4c3f289",
+    "env.url.production": "https://api-tasks.caretgrowth.com",
+    "trigger": "",
+    "noTrigger": true
+  },
+  "cgstasksTimerLauncher": {
+    "enabled": true,
+    "noTrigger": true,
+    "trigger": ""
+  },
+  "cgstasksTimerWidget": {
+    "enabled": true
+  }
+}
