@@ -1,0 +1,9 @@
+{
+  "lockfileVersion": 1,
+  "plugins": {
+    "worldClock": {
+      "repo": "https://github.com/rochacbruno/WorldClock",
+      "commit": "92dafcd81244dc128c1efc26589c5db17b0c3c16"
+    }
+  }
+}

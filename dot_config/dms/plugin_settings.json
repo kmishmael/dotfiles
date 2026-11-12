@@ -1,0 +1,42 @@
+{
+  "worldClock": {
+    "enabled": true,
+    "timezones": [
+      {
+        "timezone": "America/New_York",
+        "label": "US"
+      }
+    ],
+    "use24h": false,
+    "iconOnly": false,
+    "showAll": true,
+    "cycleInterval": 30
+  },
+  "cgstasksTimer": {
+    "enabled": true,
+    "pat.local": "",
+    "pat.staging": "",
+    "env.url.staging": "https://staging-api-tasks.caretgrowth.com/",
+    "user.id": "",
+    "user.name": "",
+    "env.active": "production",
+    "pat.production": "cgstasks_b138595996c9093499cb8d3ee4c3f289",
+    "env.url.production": "https://api-tasks.caretgrowth.com",
+    "trigger": "",
+    "noTrigger": true,
+    "island.showActiveTimer": true,
+    "island.showWeeklyHours": true,
+    "user.id.production": "10e8e071-2637-46af-8597-d4bb8922d01f",
+    "user.name.production": "Ishmael Kibet",
+    "island.showOpenHours": true,
+    "pacing.targets": "{\"10e8e071-2637-46af-8597-d4bb8922d01f\":{\"name\":\"Ishmael Kibet\",\"hours\":23}}"
+  },
+  "cgstasksTimerLauncher": {
+    "enabled": true,
+    "noTrigger": true,
+    "trigger": ""
+  },
+  "cgstasksTimerWidget": {
+    "enabled": true
+  }
+}
