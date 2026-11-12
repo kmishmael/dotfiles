@@ -110,9 +110,15 @@ alias niricfg="nvim ~/.config/niri/config.kdl"
 alias npm="sudo sfw npm"
 alias pnpm="sfw pnpm"
 alias pip="sfw pip"
-
+alias zeta="/home/ishmael/caretgrowth/zeta/zeta"
+alias sshc="ssh -i ~/.ssh/ishmael ishmael@172.93.54.220"
+alias sshcgs="mosh dev-mosh -- bash -lc 'cd /opt/src/ishmael && exec herdr'"
 # Node version manager 
 source /usr/share/nvm/init-nvm.sh
 
 # opencode
 export PATH=/home/ishmael/.opencode/bin:$PATH
+
+. "$HOME/.local/bin/env"
+
+eval "$(starship init zsh)"
